@@ -1,0 +1,34 @@
+{
+  "name": "curso-de-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_OPTIONS=\"--inspect\" && next",
+    "build": "next build",
+    "start": "start",
+    "prepare": "husky install",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioOlivera/Curso-de-Next.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioOlivera/Curso-de-Next.js/issues"
+  },
+  "homepage": "https://github.com/MarioOlivera/Curso-de-Next.js#readme",
+  "dependencies": {
+    "next": "^13.4.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "@types/react": "^18.2.20",
+    "typescript": "^5.1.6"
+  }
+}
